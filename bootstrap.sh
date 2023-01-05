@@ -1,6 +1,8 @@
 export INSTALL_ZSH=true
 export USERNAME=`jyje`
 
+echo "Bootstrapping for $USERNAME"
+
 apt update
 apt install zsh
 
